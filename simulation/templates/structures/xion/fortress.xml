@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Attack disable=""/>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Wagon fortress</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <TerritoryDecay disable=""/>
+<!--     <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>0</X>
+        <Y>2</Y>
+        <Z>11</Z>
+      </One>
+      <Two>
+        <X>4</X>
+        <Y>2</Y>
+        <Z>11</Z>
+      </Two>
+      <Three>
+        <X>-4</X>
+        <Y>0.7</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>8</X>
+        <Y>0.7</Y>
+        <Z>0</Z>
+      </Four>
+      <Five>
+        <X>-8</X>
+        <Y>2.7</Y>
+        <Z>0</Z>
+      </Five>
+      <Six>
+        <X>-12</X>
+        <Y>2.7</Y>
+        <Z>1.5</Z>
+      </Six>
+      <Seven>
+        <X>-12</X>
+        <Y>2.7</Y>
+        <Z>1</Z>
+      </Seven>
+    </TurretPoints>
+  </TurretHolder>
+ -->  <Upgrade>
+    <Unpack>
+      <Entity>structures/xion/fortress_packed</Entity>
+      <Time>45</Time>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Unpack>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/xion/fortress.xml</Actor>
+    <FoundationActor>structures/xion/civic_centre_foundation.xml</FoundationActor>
+  </VisualActor>
+</Entity>

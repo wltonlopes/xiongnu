@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Hun wagon_a">
+      <mesh>structural/xion_fortress.dae</mesh>
+      <props>
+        <prop actor="units/xion/infantry_archer_b.xml" attachpoint="archer_01"/>
+        <prop actor="units/xion/infantry_archer_b.xml" attachpoint="archer_02"/>
+        <prop actor="units/xion/infantry_archer_e.xml" attachpoint="archer_03"/>
+        <prop actor="units/xion/infantry_archer_b.xml" attachpoint="archer_04"/>
+        <prop actor="units/xion/infantry_archer_a.xml" attachpoint="archer_05"/>
+        <prop actor="units/xion/infantry_archer_e.xml" attachpoint="archer_06"/>
+        <prop actor="units/xion/infantry_archer_b.xml" attachpoint="archer_07"/>
+        <prop actor="units/xion/infantry_archer_e.xml" attachpoint="archer_08"/>
+        <prop actor="units/xion/infantry_archer_a.xml" attachpoint="archer_09"/>
+        <prop actor="units/xion/infantry_archer_b.xml" attachpoint="archer_10"/>
+        <prop actor="units/xion/infantry_archer_b.xml" attachpoint="archer_11"/>
+        <prop actor="units/xion/infantry_archer_a.xml" attachpoint="archer_12"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="structural/xion_structure.png" name="baseTex"/>
+        <texture file="structural/xion_structure_norm.png" name="normTex"/>
+        <texture file="structural/xion_structure_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>
